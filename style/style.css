@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+body,html {
+    width: 100%;
+    height:100%;
+
+}
+body {
+    background-color: #fafafa;
+font-family: 'Trebuchet MS;
+}
+
+header {
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    background-color: transparent;
+    float: left;
+    position: fixed;
+}
+
+header #logo {
+    color: #fff;
+    cursor: pointer;
+}
+header #logo span {
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-left: 40px;
+    font-family: 'souz One', serif;
+}
+@media (min-width: 701px) {
+    #logo {
+        float: left;
+        width: 30%;
+        font-size: 1.7em;
+    }
+}
+#about {
+    float: right;
+    width: 67%;
+}
+@media (min-width: 700px) {
+    #logo {
+        
+        float: left;
+        width: 100%;
+        font-size: 1.5em;
+    }
+}
+
+#about {
+
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: 10px;
+    line-height: 40px;
+}
+
+#about >a {color:#fff}
+
+#about >a:hover {
+    color: #b0b0b0;
+    text-decoration: underline;
+
+}
+#about >a:not(:last-child) {
+    margin-right: 7%;
+}
+
+.fixed {
+    z-index: 5000;
+    background-color: #fff; 
+    border-bottom: 1px solid silver;
+}
+
+header.fixed #logo {
+    color: #343434;
+
+}
+
+.fixed #about a {color: #343434;}
+.fixed #about a:hover {color: #77cc77;}
+
+#top {
+    height: 1000px;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/c6/de/80/c6de80af34ae94a0cc6c0c7dbda4c085.jpg);
+    background-blend-mode: multiply;
+    background-color: #2e3a44;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    font-family: 3em;
+}
+
+#top h1 {
+    padding-top: 20%;
+}
+ #top h2 {
+     color: #ccc;
+ }
+ #main {
+     padding: 100px 20%;
+     width: 60%;
+     float: left;
+     background-color: #f6f6f6;
+     border-top: 2px solid silver;
+     color: #484848;
+     font-size: 1.3em;
+ }
