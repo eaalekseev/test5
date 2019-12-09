@@ -44,7 +44,6 @@ header #logo span {
 }
 @media (min-width: 700px) {
     #logo {
-        
         float: left;
         width: 100%;
         font-size: 1.5em;
@@ -112,4 +111,52 @@ header.fixed #logo {
      border-top: 2px solid silver;
      color: #484848;
      font-size: 1.3em;
+ }
+ #main div {
+     width: 48%;
+     margin-right: 2%;
+     float: left;
+     
+ }  
+
+ #main h2 {font-size: 3em;}
+ #main span {color: #a0a0a0;}
+ 
+ @media (min-width: 1401px) {
+#main {
+    padding: 100px 10%;
+    width: 80%;
+}
+ }
+ @media (max-width: 700px) {
+     #main div {
+         width: 98%!important;
+         margin-bottom: 20px;
+     }
+ }
+
+ #overview {
+     float: left;
+     background-image: url(https://images.unsplash.com/photo-1518773553398-650c184e0bb3?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjExNzczfQ&s=24b3e2b5281ee916a98dd70dcac6d7fe);
+     background-blend-mode: multiply;
+     background-color: #4f1c75;
+     background-size: cover;
+     background-attachment: fixed;
+     padding: 100px;
+     width: 100%;
+     text-align: center;
+     color: #fff;
+     
+ }
+ #overview h2 {font-size: 4em;}
+ #overview h4 {color: #ccc;font-size: 1.5em;}
+
+ #overview .img {
+     float: left;
+     width: 30%;
+     margin-right: 5%;
+     margin-top: 50%;
+ }
+ #overwiew .img:nth-child(odd) {
+     margin-left: 18%;
  }
